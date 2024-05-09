@@ -561,7 +561,7 @@ importers:
         version: 8.5.4
       '@vitejs/plugin-vue':
         specifier: ^4.3.4
-        version: 4.3.4(vite@4.4.9)(vue@3.3.4)
+        version: 4.3.4(vite@4.5.3)(vue@3.3.4)
       '@vue-macros/reactivity-transform':
         specifier: ^0.3.4
         version: 0.3.4(vue@3.3.4)
@@ -572,14 +572,14 @@ importers:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
-        specifier: ^4.4.9
-        version: 4.4.9(@types/node@20.6.2)
+        specifier: ^4.5.3
+        version: 4.5.3(@types/node@20.6.2)
       vite-plugin-html-config:
         specifier: ^1.0.11
-        version: 1.0.11(vite@4.4.9)
+        version: 1.0.11(vite@4.5.3)
       vite-plugin-node-polyfills:
         specifier: ^0.7.0
-        version: 0.7.0(vite@4.4.9)
+        version: 0.7.0(vite@4.5.3)
       vue-tsc:
         specifier: ^1.8.11
         version: 1.8.11(typescript@5.2.2)
@@ -604,19 +604,19 @@ importers:
         version: 20.6.2
       '@vitejs/plugin-vue':
         specifier: ^4.3.4
-        version: 4.3.4(vite@4.4.9)(vue@3.3.4)
+        version: 4.3.4(vite@4.5.3)(vue@3.3.4)
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
       vite:
-        specifier: ^4.4.9
-        version: 4.4.9(@types/node@20.6.2)
+        specifier: ^4.5.3
+        version: 4.5.3(@types/node@20.6.2)
       vite-plugin-html-config:
         specifier: ^1.0.11
-        version: 1.0.11(vite@4.4.9)
+        version: 1.0.11(vite@4.5.3)
       vite-plugin-pwa:
         specifier: ^0.14.4
-        version: 0.14.7(vite@4.4.9)(workbox-build@6.6.0)(workbox-window@6.6.0)
+        version: 0.14.7(vite@4.5.3)(workbox-build@6.6.0)(workbox-window@6.6.0)
       vite-svg-loader:
         specifier: ^4.0.0
         version: 4.0.0
@@ -3310,14 +3310,14 @@ packages:
       ts-morph: 12.0.0
     dev: true
 
-  /@vitejs/plugin-vue@4.3.4(vite@4.4.9)(vue@3.3.4):
+  /@vitejs/plugin-vue@4.3.4(vite@4.5.3)(vue@3.3.4):
     resolution: {integrity: sha512-ciXNIHKPriERBisHFBvnTbfKa6r9SAesOYXeGDzgegcvy9Q4xdScSHAmKbNT0M3O0S9LKhIf5/G+UYG4NnnzYw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 4.4.9(@types/node@20.6.2)
+      vite: 4.5.3(@types/node@20.6.2)
       vue: 3.3.4
     dev: true
 
@@ -3425,7 +3425,7 @@ packages:
       '@vue/shared': 3.2.47
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      postcss: 8.4.23
+      postcss: 8.4.29
       source-map: 0.6.1
     dev: true
 
@@ -3440,7 +3440,7 @@ packages:
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
       magic-string: 0.30.1
-      postcss: 8.4.25
+      postcss: 8.4.29
       source-map-js: 1.0.2
 
   /@vue/compiler-ssr@3.2.47:
@@ -3548,6 +3548,7 @@ packages:
   /@xmldom/xmldom@0.8.10:
     resolution: {integrity: sha512-2WALfTl4xo2SkGCYRt6rDTFfk9R1czmBvUQy12gK2KuRKIpWEhcbbzy8EZXtz/jkRqHX8bFEc6FC1HjX4TUWYw==}
     engines: {node: '>=10.0.0'}
+    requiresBuild: true
     dev: true
 
   /a-color-picker@1.2.1:
@@ -6083,6 +6084,7 @@ packages:
 
   /json-schema-traverse@0.4.1:
     resolution: {integrity: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==}
+    requiresBuild: true
     dev: true
 
   /json-schema-traverse@1.0.0:
@@ -6839,23 +6841,6 @@ packages:
       yaml: 2.3.1
     dev: true
 
-  /postcss@8.4.23:
-    resolution: {integrity: sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.6
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-    dev: true
-
-  /postcss@8.4.25:
-    resolution: {integrity: sha512-7taJ/8t2av0Z+sQEvNzCkpDynl0tX3uJMCODi6nT3PfASC7dYCWV9aQ+uiCf+KBD4SEFcu+GvJdGdwzQ6OSjCw==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.6
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-
   /postcss@8.4.29:
     resolution: {integrity: sha512-cbI+jaqIeu/VGqXEarWkRCCffhjgXc0qjBtXpqJhTBohMUjUQnbBr0xqX3vEKudc4iviTewcJo5ajcec5+wdJw==}
     engines: {node: ^10 || ^12 || >=14}
@@ -6863,7 +6848,6 @@ packages:
       nanoid: 3.3.6
       picocolors: 1.0.0
       source-map-js: 1.0.2
-    dev: true
 
   /prettier-plugin-java@2.3.1:
     resolution: {integrity: sha512-OYn8skqKnE5YUVL8f2ocayA6XCJK8PqsEz3pfATbDqzgdaSYDLhE/s8KrXrX9gj8KXIG6Wx0CMoXTNH8+ED22w==}
@@ -8137,28 +8121,28 @@ packages:
     dev: true
     optional: true
 
-  /vite-plugin-html-config@1.0.11(vite@4.4.9):
+  /vite-plugin-html-config@1.0.11(vite@4.5.3):
     resolution: {integrity: sha512-hUybhgI+/LQQ5q6xoMMsTvI4PBuQD/Wv6Z1vtDPVWjanS8weCIexXuLLYNGD/93f0v8W2hpNfXpmxgpZMahJ0g==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: '>=2.0.0'
     dependencies:
-      vite: 4.4.9(@types/node@20.6.2)
+      vite: 4.5.3(@types/node@20.6.2)
     dev: true
 
-  /vite-plugin-node-polyfills@0.7.0(vite@4.4.9):
+  /vite-plugin-node-polyfills@0.7.0(vite@4.5.3):
     resolution: {integrity: sha512-DKBSGDOx3R8pUIsQFRZAWNYp0vIffJOT0NkuByX4WIQq80nJ2eamAph5T9zG91liO1Fyl1lo7/Onh6xoQO52XQ==}
     peerDependencies:
       vite: ^2.0.0 || ^3.0.0 || ^4.0.0
     dependencies:
       '@rollup/plugin-inject': 5.0.3
       node-stdlib-browser: 1.2.0
-      vite: 4.4.9(@types/node@20.6.2)
+      vite: 4.5.3(@types/node@20.6.2)
     transitivePeerDependencies:
       - rollup
     dev: true
 
-  /vite-plugin-pwa@0.14.7(vite@4.4.9)(workbox-build@6.6.0)(workbox-window@6.6.0):
+  /vite-plugin-pwa@0.14.7(vite@4.5.3)(workbox-build@6.6.0)(workbox-window@6.6.0):
     resolution: {integrity: sha512-dNJaf0fYOWncmjxv9HiSa2xrSjipjff7IkYE5oIUJ2x5HKu3cXgA8LRgzOwTc5MhwyFYRSU0xyN0Phbx3NsQYw==}
     peerDependencies:
       vite: ^3.1.0 || ^4.0.0
@@ -8170,7 +8154,7 @@ packages:
       fast-glob: 3.2.12
       pretty-bytes: 6.1.0
       rollup: 3.21.0
-      vite: 4.4.9(@types/node@20.6.2)
+      vite: 4.5.3(@types/node@20.6.2)
       workbox-build: 6.6.0
       workbox-window: 6.6.0
     transitivePeerDependencies:
@@ -8184,8 +8168,8 @@ packages:
       svgo: 3.0.2
     dev: true
 
-  /vite@4.4.9(@types/node@20.6.2):
-    resolution: {integrity: sha512-2mbUn2LlUmNASWwSCNSJ/EG2HuSRTnVNaydp6vMCm5VIqJsjMfbIWtbH2kDuwUVW5mMUKKZvGPX/rqeqVvv1XA==}
+  /vite@4.5.3(@types/node@20.6.2):
+    resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -8462,6 +8446,7 @@ packages:
 
   /workbox-google-analytics@6.6.0:
     resolution: {integrity: sha512-p4DJa6OldXWd6M9zRl0H6vB9lkrmqYFkRQ2xEiNdBFp9U0LhsGO7hsBscVEyH9H2/3eZZt8c97NB2FD9U2NJ+Q==}
+    deprecated: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
     dependencies:
       workbox-background-sync: 6.6.0
       workbox-core: 6.6.0
@@ -8577,6 +8562,7 @@ packages:
   /xmlbuilder@15.1.1:
     resolution: {integrity: sha512-yMqGBqtXyeN1e3TGYvgNgDVZ3j84W4cwkOXQswghol6APgZWaff9lnbvN7MHYJOiXsvGPXtjTYJEiC9J2wv9Eg==}
     engines: {node: '>=8.0'}
+    requiresBuild: true
     dev: true
 
   /xtend@4.0.2:
